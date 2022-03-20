@@ -1,0 +1,183 @@
+﻿<Window x:Class="Wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <FlowDocumentScrollViewer>
+            <FlowDocument>
+                <Paragraph>
+                    <Floater Width="250" HorizontalAlignment="Right">
+                        <BlockUIContainer>
+                            <Image Source="Data/1.jpg"/>
+                        </BlockUIContainer>
+                    </Floater>
+                    <Bold>Балет</Bold> (фр. ballet, от итал. ballare — танцевать) — вид сценического искусства; спектакль, содержание которого воплощается в музыкально-хореографических образах. 
+                    В основе классического балетного спектакля лежит определённый сюжет, драматургический замысел,
+                    <Hyperlink NavigateUri="https://ru.wikipedia.org/wiki/%D0%9A%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D1%82%D0%B0%D0%BD%D0%B5%D1%86">либретто</Hyperlink>, 
+                    в XX веке появился бессюжетный балет, драматургия которого основана на развитии, заложенном в музыке. Основными видами танца в балете являются
+                    <Hyperlink NavigateUri="https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D0%B1%D1%80%D0%B5%D1%82%D1%82%D0%BE">классический танец</Hyperlink> и характерный танец.
+                </Paragraph>
+                <Paragraph>
+                    Самые известные балерины 20 века:
+                </Paragraph>
+                <List MarkerStyle="Box">
+                    <ListItem>
+                        <Paragraph>
+                            <Italic>Мари Рамберг (1888 — 1982)</Italic> - родилась в еврейской семье в Польше — настоящее имя Сивия Рамбам. Девочка уже с ранних лет влюбилась в танцы. 
+                            Её талант быстро привлёк внимание театрального и художественного деятеля Сергея Дягилева. В итоге уже с 1912 она начала танцевать вместе с Русским балетом.
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            <Italic> Анна Павлова (1881 — 1931) </Italic> - родилась в Петербурге, отучилась в театральном училище. В 1899 году поступила в Мариинский театр, где уже к 1906 году стала 
+                            ведущей балериной театра. Но настоящая слава пришла к ней спустя год, когда она исполнила главную роль в миниатюре «Умирающий лебедь».
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            <Italic>Матильда Кшесинская (1872 — 1971)</Italic> - родилась под Петербургом. Танцами занималась с детства и блестяще окончила Императорское театральное училище, 
+                            попав в балетную труппу Мариинского театра.
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            <Italic>Агриппина Ваганова (1879 — 1951)</Italic> - Агриппина Ваганова не стала великой балериной, однако её имя навсегда вошло в историю этого искусства. 
+                            Всё дело в том, что почти всю жизнь она исполняла роли второго плана. Но благодаря упорному труду ей удалось достичь настоящего мастерства. 
+                            Балерина сумела заново раскрыть образы, казалось, уже затёртые поколениями предыдущих танцовщиц.
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            <Italic>Ивет Шовире (1917 — 2016)</Italic> - родилась в Париже. Танцами начала заниматься уже с 10 лет. Её талант и работоспособность быстро отметили режиссёры и в 
+                            1941 году она стала примой Оперы Гарнье — дебютные выступления принесли ей поистине мировую славу.
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            <Italic>Галина Уланова (1910 — 1998)</Italic> - родилась в Петербурге. В 1928 году окончила хореографическое училище, сразу после чего попала в труппу Театра оперы и балета в Ленинграде. 
+                            Первые же выступления привлекли внимание критиков и ценителей балета — а потому не удивительно, что в 19 лет Уланова уже танцевала ведущую партию в «Лебедином озере».
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            <Italic>Алисия Алонсо (1920 — 2019)</Italic> - родилась в Гаване, Куба. Искусству танца она начала учиться в 10 лет. Дебютировала на Бродвее в 1938 году в музыкальных комедиях. 
+                            Работала в нью-йоркской «Балле театр», где, кстати, и приняла решение развивать балет на Кубе.
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            <Italic>Майя Плисецкая (1925 — 2015)</Italic> - самая знаменитая русская балерина с рекордно долгой карьерой. Любовь к балету Майя впитала ещё в детстве, ведь её дядя и тётя также 
+                            являлись известными танцорами. Знаковой для неё оказалась постановка «Золушки» и партия феи Осени в 1945 году.
+                        </Paragraph>
+                    </ListItem>
+                </List>
+                <Paragraph>
+                    Занятия хореографией в школе балета
+                </Paragraph>
+                <Table>
+                    <Table.Columns>
+                        <TableColumn Width="0.5*"/>
+                        <TableColumn Width="*"/>
+                        <TableColumn Width="2*"/>
+                    </Table.Columns>
+                    <TableRowGroup>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Год обучения
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Программа занятий
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Описание
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    0 класс
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Балет для начинающих
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Это класс для самых маленьких и начинающих детей с 2-х лет. Программа класса ставит первостепенными 
+                                    задачами повышение общего мышечного тонуса учащихся, развитие гибкости суставов и эластичности связок.
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    1 класс
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Уроки хореографии
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Уроки хореографии включают в себя ритмические упражнения, простые танцевальные комбинации, творческие музыкальные задания и 
+                                    упражнения для пространственной ориентации. Первый музыкальный размер, с которым встречаются ученики  – 2/4.
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    2 класс
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Классический танец
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    К изучению детям предлагается более сложная, чем в первом классе, танцевальная комбинация. Форма музыкального произведения, 
+                                    с которым знакомятся ученики, выполняя различные задания – вальс, музыкальный размер – 3/4.
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    3 класс
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Позиции и базовые элементы
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Уроки хореографии включает в себя как элементы классического танца и использование выворотных позиций, 
+                                    так и упражнения хореографического стиля джаз-модерн и параллельные позиции ног. Размер музыкальных композиций, 
+                                    с которым знакомятся дети, выполняя различные задания – 3/4 и 4/4.
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                    </TableRowGroup>
+                </Table>
+            </FlowDocument>
+        </FlowDocumentScrollViewer>
+    </Grid>
+</Window>
